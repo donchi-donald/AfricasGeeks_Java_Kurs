@@ -1,4 +1,4 @@
-package variableUndDatentyp;
+package a_variableUndDatentyp;
 
 /*
  Schreiben Sie ein Java-Programm, das die x- und y-Koordinaten zweier Punkte einliest und den Abstand zwischen ihnen berechnet und ausgibt.

@@ -1,4 +1,4 @@
-package variableUndDatentyp;
+package a_variableUndDatentyp;
 
 /*
  Schreiben Sie ein Java-Programm, das eine Anzahl von Sekunden einliest und in

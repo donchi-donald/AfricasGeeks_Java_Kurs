@@ -1,4 +1,4 @@
-package variableUndDatentyp;
+package a_variableUndDatentyp;
 
 /*
 Erstellen Sie folgende Java-Applikation (Name "Calc"):
@@ -24,7 +24,27 @@ Was geschieht wenn Sie einen Überlauf in einem Wertebereich einer Variablen prov
 public class ZuweisungUndTypen {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		 final int ANZAHL=10;
+	        int a;
+	        long b;
+	        short c;
+	        float d;
+	        a=1;
+	        b=2;
+	        c=3;
+	        d=4.0f;
+	        a=a+ANZAHL;//a=11
+	        System.out.println(a);
+	        a=a*ANZAHL;
+	        System.out.println(a);
+	        b=a-c;
+	        System.out.println(b);
+	        a=a/ANZAHL;
+	        System.out.println(a);
+	        b=(long)(b*c);
+	        System.out.println(b);
+		
 
 	}
 

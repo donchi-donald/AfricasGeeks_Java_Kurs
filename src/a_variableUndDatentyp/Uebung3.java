@@ -1,4 +1,4 @@
-package variableUndDatentyp;
+package a_variableUndDatentyp;
 
 /*
  Schreiben Sie ein Javaprogramm, das die Koeffizienten a, b, c, d sowie den Wert x des Polynoms

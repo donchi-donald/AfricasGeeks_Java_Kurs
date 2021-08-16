@@ -1,4 +1,4 @@
-package variableUndDatentyp;
+package a_variableUndDatentyp;
 
 
 /*
