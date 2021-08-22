@@ -11,6 +11,9 @@ public class NotenVerwaltung {
 	 * 2.2 si 2.1 est vrai alors mettre la note 0
 	 * 
 	 * 2.3 calculer et afficher la moyenne generale de la classe 
+	 * 
+	 * new features:
+	 * 2.1 et 2.2 Si la note est negativ ou > 20 le user doit reentrer la note jusqu a ce que la note enter es compris entre  0 et 20.
 	 */
 	public static void main(String[] args) {
 		int notes[] = new int[5];
