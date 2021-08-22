@@ -1,5 +1,7 @@
 package a_variableUndDatentyp;
 
+import java.util.Scanner;
+
 /*
  Schreiben Sie ein Java-Programm, das eine Anzahl von Sekunden einliest und in
 die Anzahl von Stunden, Minuten und Sekunden umrechnet.
@@ -11,7 +13,14 @@ Beispiel: Die Eingabe 1234 soll zur Ausgabe von 0 : 20 : 34 führen.
 public class Uebung2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner clavier = new Scanner(System.in);
+		System.out.println("Geben Sie die Anzahl von Sekunden: ");
+		int seconde = clavier.nextInt();
+		
+		int h = seconde / 3600;
+		int m = (seconde - h*3600)/ 60;
+		int s = seconde - h*3600 - m*60;
+		System.out.println(h+" : "+ m + " : "+s);
 
 	}
 
