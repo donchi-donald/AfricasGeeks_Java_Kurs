@@ -10,7 +10,7 @@ Tipp: Math.sqrt() berechnet eine Wurzel
 public class Uebung4 {
 
 	public static void main(String[] args) {
-		 Scanner clavier =new Scanner (System.in);
+		 Scanner clavier =new Scanner(System.in);
          System.out.println("geben sie xa");
          int xa= clavier.nextInt();
          System.out.println("geben sie ya");
@@ -22,6 +22,7 @@ public class Uebung4 {
          int xbMinusXaQuadrat=(xb-xa)*(xb-xa);
          int ybMinusYaQuadrat=(yb-ya)*(yb-ya);
          System.out.println("Abstand=wuerzel(xbMinusXaQuadrat + ybMinusYaQuadrat): "+Math.sqrt(xbMinusXaQuadrat+ybMinusYaQuadrat));
+        
 
 	}
 
