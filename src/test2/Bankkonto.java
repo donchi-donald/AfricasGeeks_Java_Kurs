@@ -6,7 +6,7 @@ public class Bankkonto {
 	private String vorname;
 	private String nachname;
 	private String iban;
-	public String nameDerBank;
+	protected String nameDerBank;
 	private double kontoStand;
 	private double kreditlimit;
 	private int pin;
