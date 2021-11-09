@@ -1,9 +1,11 @@
 package e_klassen_und_objecte;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Adressbuch {
 	static int count = 0;
+	ArrayList<String> l;
 
 	public static void main(String[] args) {
 		String [][] addressbuch = new String[20][7];
@@ -65,6 +67,14 @@ public class Adressbuch {
 					break;
 				}
 				case 4 :{
+					System.out.println("4: Bestehenden Adresse löschen");
+					System.out.println("Welche Adresse möchten Sie löscchen (1-"+count+")");
+					index = clavier.nextInt();
+					adresseLoeschen(addressbuch, index);
+					
+					break;
+				}
+				case 5 :{
 					System.out.println("Tschüßßßßß!!! ");
 					break;
 				}
@@ -96,9 +106,10 @@ public class Adressbuch {
 		System.out.println("1: Neue Adresse eintragen");
 		System.out.println("2: Bestehende Adresse bearbeiten");
 		System.out.println("3: Adressbuch ausgeben");
-		System.out.println("4: Programm beenden");
+		System.out.println("4: Bestehenden Adresse löschen");
+		System.out.println("5: Programm beenden");
 		System.out.println("***********************************************");
-		System.out.println("Geben Sie bitte eine Zahl zwichen 1 und 4 ein: ");
+		System.out.println("Geben Sie bitte eine Zahl zwichen 1 und 5 ein: ");
 		
 	}
 	
@@ -127,6 +138,18 @@ public class Adressbuch {
 			System.out.println("Geben Sie bitte  eine Zahl zwischen 0 und "+(count-1));
 		}
 		
+	}
+	
+	public static void adresseLoeschen(String [][] addressbuch, int index) {
+		if((count > 0) && (index <= count)){
+			addressbuch[index-1][0]=null;
+			addressbuch[index-1][1]=null;
+			addressbuch[index-1][2]=null;
+			addressbuch[index-1][3]=null;
+			addressbuch[index-1][4]=null;
+			addressbuch[index-1][5]=null;
+			addressbuch[index-1][6]=null;
+		}
 	}
 	
 	

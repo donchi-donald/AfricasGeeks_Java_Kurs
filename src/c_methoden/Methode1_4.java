@@ -29,7 +29,6 @@ public class Methode1_4 {
 	}
 	
 	/*
-	 * 
 	 * Modifier *(Rückgabetyp | void ) Methodename ( Parameter){
 	 * 		//le corp de la methode
 	 * 
